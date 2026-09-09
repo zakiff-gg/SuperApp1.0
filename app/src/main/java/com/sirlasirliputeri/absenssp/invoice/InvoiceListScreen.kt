@@ -204,17 +204,18 @@ private fun EmptyStateInvoice(adaPencarianAtauFilter: Boolean, modifier: Modifie
             modifier = Modifier.size(64.dp).clip(CircleShape).background(NavyDark.copy(alpha = 0.06f)),
             contentAlignment = Alignment.Center
         ) {
+            val warnaIkon = NavyDark.copy(alpha = 0.5f)
             Canvas(modifier = Modifier.size(30.dp)) {
                 val w = size.width; val h = size.height
                 drawRoundRect(
-                    color = NavyDark.copy(alpha = 0.5f),
+                    color = warnaIkon,
                     topLeft = Offset(w * 0.14f, h * 0.08f),
                     size = androidx.compose.ui.geometry.Size(w * 0.72f, h * 0.84f),
                     cornerRadius = androidx.compose.ui.geometry.CornerRadius(w * 0.06f, w * 0.06f),
                     style = Stroke(width = w * 0.08f)
                 )
-                drawLine(color = NavyDark.copy(alpha = 0.5f), start = Offset(w * 0.30f, h * 0.40f), end = Offset(w * 0.70f, h * 0.40f), strokeWidth = w * 0.07f)
-                drawLine(color = NavyDark.copy(alpha = 0.5f), start = Offset(w * 0.30f, h * 0.60f), end = Offset(w * 0.70f, h * 0.60f), strokeWidth = w * 0.07f)
+                drawLine(color = warnaIkon, start = Offset(w * 0.30f, h * 0.40f), end = Offset(w * 0.70f, h * 0.40f), strokeWidth = w * 0.07f)
+                drawLine(color = warnaIkon, start = Offset(w * 0.30f, h * 0.60f), end = Offset(w * 0.70f, h * 0.60f), strokeWidth = w * 0.07f)
             }
         }
         Spacer(Modifier.height(14.dp))

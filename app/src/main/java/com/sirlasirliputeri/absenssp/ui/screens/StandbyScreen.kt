@@ -147,9 +147,10 @@ fun StandbyScreen(
                         .clickable { showRincian = true }
                 ) {
                     // Watermark grafis tipis di pojok kartu
+                    val warnaWatermark = NavyDark.copy(alpha = 0.03f)
                     Canvas(modifier = Modifier.matchParentSize()) {
                         drawCircle(
-                            color = NavyDark.copy(alpha = 0.03f),
+                            color = warnaWatermark,
                             radius = size.width * 0.45f,
                             center = Offset(size.width * 0.92f, -size.height * 0.10f)
                         )
