@@ -7,7 +7,7 @@ package com.sirlasirliputeri.absenssp.model
  */
 object AppConstants {
     // Ganti dengan URL Web App hasil "Deploy > New deployment" pada Google Apps Script.
-    const val WEB_APP_URL = "https://script.google.com/macros/s/GANTI_DENGAN_DEPLOYMENT_ID/exec"
+    const val WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzkEykXX4YXGZgAWPS_71M60_j8WaXbK5av6lyp6KAV_9BN9QxehV-jZn3xNbh5Jci9SQ/exec"
 
     // Password default menu rahasia admin. Simpan dengan aman, sebaiknya diubah berkala.
     const val DEFAULT_ADMIN_PASSWORD = "ssp2026admin"
