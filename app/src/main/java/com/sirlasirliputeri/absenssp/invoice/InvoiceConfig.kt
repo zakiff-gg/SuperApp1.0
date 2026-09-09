@@ -13,5 +13,5 @@ package com.sirlasirliputeri.absenssp.invoice
  * 4. Salin URL yang dihasilkan ke bawah ini.
  */
 object InvoiceConfig {
-    const val INVOICE_SCRIPT_URL = "PASTE_URL_WEB_APP_APPS_SCRIPT_INVOICE_DI_SINI"
+    const val INVOICE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzAu3twqFvqTjPFbAQRSpABm3iHRprU6hixOJYQRH5VwkGxEkdhUNVyLiaKDgJZkG7r7w/exec"
 }
